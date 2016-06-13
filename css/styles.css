@@ -490,7 +490,25 @@ ul li {
       .main .hot-tours ul {
         padding: 0; }
       .main .hot-tours img {
-        height: 3em; } }
+        height: 3em; }
+      .main #photo-gallery {
+        margin-bottom: 4em; }
+        .main #photo-gallery img {
+          display: inline;
+          height: 10em;
+          width: 10em;
+          transition-property: border;
+          transition-delay: .5ms; }
+          .main #photo-gallery img:hover {
+            transform: skew(0, 10deg) scale(1.1);
+            border: 2px solid black; }
+      .main #photo {
+        height: 20em;
+        width: 100%;
+        border: 1px dashed black; }
+        .main #photo img {
+          height: 100%;
+          width: 100%; } }
   @media (max-width: 480px) {
     .main figure {
       display: none; }
@@ -520,7 +538,21 @@ ul li {
         width: 30%;
         height: 5em; }
         .main .gallery figure img {
-          width: 100%; } }
+          width: 100%; }
+    .main #photo-gallery {
+      margin-bottom: 4em; }
+      .main #photo-gallery img {
+        display: inline;
+        height: 8em;
+        width: 8em;
+        border: 2px solid black; }
+    .main #photo {
+      height: 20em;
+      width: 100%;
+      border: 1px dashed black; }
+      .main #photo img {
+        height: 100%;
+        width: 100%; } }
 
 @media (min-width: 769px) {
   .wrap-content {
