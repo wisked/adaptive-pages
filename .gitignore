@@ -1,1 +1,2 @@
-/home/aleks/Projects/Adaptive WebPages/.gitignore
+node_modules/
+bower_components/
